@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="icon" href="logo.png">
+  
+
+</head>
+
+<body>
+  <div class="wrapper2">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <img src="logosinfondo.png">
+        </div>
+        <ul class="menu" id="menu">
+          <li><a href="index.html"  class="active">Inicio</a></li>
+          <li><a href="#sobre">Sobre mí</a></li>
+          <li><a href="#port">Portfolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="toggle-menu">
+          <i class="fas fa-bars" id="toggle_open"></i>
+          <i class="fas fa-close" id="toggle_close"></i>
+        </div>
+      </nav>
+    </header>
+  </div>
+  
+    <div class="about">
+      <img src="cerebral.jpg" alt="">
+      <div class="about-info">
+        <h2 id="sobre">Detección de tumores cerebrales</h2>
+        <div class="divider"></div>
+        <p>El cráneo es una de las partes más rígidas del cuerpo humano y cualquier crecimiento celular dentro de él puede causar grandes problemas. Un tumor cerebral está constituido por un conjunto de células anormales que se encuentran en tu cerebro.</p>
+        <p>Nuestro objetivo es realizar un estudio para la detección de tumores cerebrales utilizando la herramienta TensorFlow. Para ello hemos escogido una base de datos procedente de Kaggle, la cual contiene imágenes de distintos tipos de tumores cerebrales, en este caso trataremos con imágenes de:</p>   
+        <p>• Gliomas: Tumores que nacen de las células de soporte del tejido cerebral.</p>
+        <p>• Meningiomas: Tumor que surge de las meninges, que son las membranas que rodean el cerebro y la médula espinal.</p>    
+        <p>• Pituitarios: Crecimientos anormales que se desarrollan en la glándula pituitaria.</p>   
+        <p>• No hay tumor aparente</p> 
+        <p>La base de datos se divide en dos carpetas, train y test, las cuales contendrán a su vez cuatro carpetas que nos indicarán los tipos de tumores cerebrales que tenemos.</p>  
+        <p>En esta libreta utilizaremos diferentes técnicas para la detección de imágenes como pueden ser el uso de redes neuronales.</p>
+        <a download href="deteccion.ipynb"><button class="download">Descargar proyecto</button></a>
+        <a download href="https://www.kaggle.com/code/pablopalacios23/detecci-n-de-tumores-cerebrales"><button class="download">Enlace al proyecto</button></a>
+        <a download href="https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset"><button class="download">Enlace a base de datos</button></a>
+    </div>
+    </div>
+
+      </div>
+    </div>
+  
+    <footer class="footer"> 
+      <div class="footer-content">
+        <h2 id="contacto">Jaime Parada</h2>
+        <h5>ingeniero Informático</h5>
+      </div>
+      <div class="sotial-networks">
+        <a href="https://www.linkedin.com/in/jaimeparada06/"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jaimeplab@gmail.com"><i class="material-icons">email</i></a>
+      </div>
+    </footer>
+  <script src="index.js"></script>
+  </body>
+</html>    

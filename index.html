@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="icon" href="logo.png">
+  
+
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <img src="logosinfondo.png">
+        </div>
+        <ul class="menu" id="menu">
+          <li><a href="index.html"  class="active">Inicio</a></li>
+          <li><a href="#sobre">Sobre mí</a></li>
+          <li><a href="#port">Portfolio</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="toggle-menu">
+          <i class="fas fa-bars" id="toggle_open"></i>
+          <i class="fas fa-close" id="toggle_close"></i>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info-content">
+        <span class="info-content__subtitle">Ingenierio Informático</span>
+        <h1><span>Jaime Parada</span></h1>
+         <p class="info-content__p" style="font-size: 20px;">Soy un ingeniero informático especializado en la rama de computación, apasionado en el ámbito de la inteligencia artificial, machine learning, aprendizaje automático y visión artificial entre otros.</p>
+         <a download href="Jaime_Parada_López_CV.pdf"><button class="download-cv">Descargar CV</button></a>
+      </div>
+      <img src="jaime.png" alt="">
+    </main>
+  </div>
+    <div class="about">
+      <img src="sobre.jpg" alt="">
+      <div class="about-info">
+        <h2 id="sobre">Sobre mí</h2>
+        <div class="divider"></div>
+        <p>¡Hola! Mi nombre es Jaime Parada López y actualmente estoy terminando mis estudios en ingeniería informática con especialización en computación en la Universidad de Castilla-La Mancha.</p>
+        <p>A lo largo de mi trayectoria por la universidad he podido cursas diferentes lenguajes de programación como pueden ser C++, C#, Java, JavaScript, Python, SQL, HTML5, CSS3 entre muchos otros.</p>
+        <p>Debido a algunas asignaturas que tratan temas relacionados con aprendizaje automático, machine learning, inteligencia artificial y demás, empecé a interesarme
+            enormemente en este mundo y entonces, para finalizar mis estudios decidí realizar el trabajo de fin de grado en relación a todo lo anterior, por lo que mi TFG se titula "Predicción de resultados de partidos en la NBA usando aprendizaje automático."</p>
+        <p>Actualmente, estoy interesado en incorporarme a alguna empresa donde adquirir nuevos conocimientos y profundizar en ciertas áreas de la informática, además de adquirir cierta experiencia laboral.</p>
+        <p>A continuación, les mostraré algunos de los proyectos en los que he estado involucrado durante mi etapa en la universidad.</p>    
+        
+      </div>
+    </div>
+    <div class="portfolio">
+      <div class="portfolio-heading">
+        <h2 id="port">Mi Portfolio</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="container">
+
+        <section>
+          <div class="container__card">
+
+              <div class="card__father">
+                  <div class="card">
+                      <div class="card__front" style="background-image: url(https://img2.rtve.es/imagenes/equipo-investigadores-halla-terapia-mejoraria-supervivencia-pacientes-tumor-cerebral/1618215632374.jpg);">
+                          <div class="bg"></div>
+                          <div class="body__card_front">
+                              <h3><a href="Deteccion.html">Detección de tumores cerebrales</a></h3>
+                          </div>
+                      </div>
+                      <div class="card__back">
+                          <div class="body__card_back">
+                              <h3>Detección de tumores cerebrales</h3>
+                              <p>En este proyecto se realizó una libreta en kaggle donde se realizará un estudio de tumores cerebrales mediante distintas técnicas relacionadas con redes neuronales</p>
+                              <a href="Deteccion.html">
+                                  <input type="button" value="Leer Más" >
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+
+      <section>
+        <div class="container__card">
+
+            <div class="card__father">
+                <div class="card">
+                    <div class="card__front" style="background-image: url(https://static01.nyt.com/images/2018/10/15/business/oakImage-1539625163216/oakImage-1539625163216-articleLarge.jpg?quality=75&auto=webp&disable=upscale);">
+                        <div class="bg"></div>
+                        <div class="body__card_front">
+                            <h3><a href="titanic.html">Estudio de la base de datos del Titanic</a></h3>
+                        </div>
+                    </div>
+                    <div class="card__back">
+                        <div class="body__card_back">
+                            <h3>Estudio de la base de datos del Titanic</h3>
+                            <p>Realización de libretas en python donde estudiaremos la base de datos del titanic mediante técnicas de machine learning </p>
+                            <a href="titanic.html">
+                                <input type="button" value="Leer Más" >
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+      <div class="container__card">
+
+          <div class="card__father">
+              <div class="card">
+                  <div class="card__front" style="background-image: url(dreamMusic.png);">
+                      <div class="bg"></div>
+                      <div class="body__card_front">
+                          <h3><a href="DreamMusic.html">Web app DreamMusic - C#, CSHTML, CSS, JavaScript, SQL || Azure DevOps</a></h3>
+                      </div>
+                  </div>
+                  <div class="card__back">
+                      <div class="body__card_back">
+                          <h3>Web app DreamMusic</h3>
+                          <p>Realización de una web app donde se utilizó Azure DevOps y se programó distintos lenguajes como C#, JavaScript, CSHTML, CSS y SQL</p>
+                          <a href="DreamMusic.html">
+                              <input type="button" value="Leer Más" >
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section>
+    <div class="container__card">
+
+        <div class="card__father">
+            <div class="card">
+                <div class="card__front" style="background-image: url(https://media.tenor.com/uIPn_roMlvcAAAAC/fortnite-volcano-eruption-fortnite-volcano.gif);">
+                    <div class="bg"></div>
+                    <div class="body__card_front">
+                        <h3><a href="volcan.html">Creación del front end de un sistema web utilizando HTML5 y CSS3</a></h3>
+                    </div>
+                </div>
+                <div class="card__back">
+                    <div class="body__card_back">
+                        <h3>Creación del front end de un sistema web utilizando HTML5 y CSS3</h3>
+                        <p>Se realizó una página web que tratará de volcanes y donde se utilizó HTML5 y CSS3</p>
+                        <a href="volcan.html">
+                            <input type="button" value="Leer Más" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container__card">
+
+        <div class="card__father">
+            <div class="card">
+                <div class="card__front" style="background-image: url(https://i.pinimg.com/originals/9a/58/c3/9a58c343701abc80f7e1d5ec4142ab4d.gif);">
+                    <div class="bg"></div>
+                    <div class="body__card_front">
+                        <h3><a href="landing.html">Creación de una landing page con HTML5, CSS3 y JavaScript</a></h3>
+                    </div>
+                </div>
+                <div class="card__back">
+                    <div class="body__card_back">
+                        <h3>Creación de una landing page con HTML5, CSS3 y JavaScript</h3>
+                        <p>Se realizó una landing page sobre una página web que permitía organizar y jugar torneos de videojuegos en distintas plataformas.</p>
+                        <a href="landing.html">
+                            <input type="button" value="Leer Más" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+
+
+      </div>
+    </div>
+  
+    <footer class="footer"> 
+      <div class="footer-content">
+        <h2 id="contacto">Jaime Parada</h2>
+        <h5>ingeniero Informático</h5>
+      </div>
+      <div class="sotial-networks">
+        <a href="https://www.linkedin.com/in/jaimeparada06/"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jaimeplab@gmail.com"><i class="material-icons">email</i></a>
+      </div>
+    </footer>
+  <script src="index.js"></script>
+  </body>
+</html>    
