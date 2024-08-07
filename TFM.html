@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link rel="icon" href="logo.png">
+  
+
+</head>
+
+<body>
+  <div class="wrapper2">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <img src="logosinfondo.png">
+        </div>
+        <ul class="menu" id="menu">
+          <li><a href="index.html"  class="active">Home</a></li>
+          <li><a href="index.html#sobre">About me</a></li>
+          <li><a href="index.html#port">Portfolio</a></li>
+          <li><a href="index.html#contacto">Contact</a></li>
+        </ul>
+        <div class="toggle-menu">
+          <i class="fas fa-bars" id="toggle_open"></i>
+          <i class="fas fa-close" id="toggle_close"></i>
+        </div>
+      </nav>
+    </header>
+  </div>
+  
+    <div class="about">
+      <!-- <img src="basket2.jpg" alt=""> -->
+      <embed src="TFM_Jaime_Parada_Lopez .pdf" type="application/pdf" width="1050" height="1100">
+      <div class="about-info">
+        <div class="under"><h2 id="under" >Master's Degree Thesis Project</h2></div>
+        <h2 id="sobre">Comparison of Reinforcement Learning and Evolutive
+          Computing Learning techniques in drone swarm control</h2>
+        <div class="divider"></div>
+        <p>Reinforcement Learning and Evolutionary Computing techniques have proven to be powerful
+          tools in solving a wide range of problems in fields such as robotics, logistics and path
+          planning. In particular, they have been successfully used in trajectory optimization for unmanned
+          aerial vehicles (UAVs). However, despite their potential, their application in drone swarm control has been remarkably scarce.</p>  
+        <p>The use of drone swarms involves streamlining flight time and reducing operational costs,
+          where, in addition to optimizing individual drone trajectories, it is crucial to ensure swarm
+          cohesion, avoid collisions, and adapt to changing environmental conditions and mission demands.
+          These challenges require innovative approaches that can learn and adapt in real time,
+          which makes Reinforcement Learning and Evolutionary Computing techniques promising
+          options.</p>
+        <p>Currently, most of the studies in the field of drone swarm control have focused on approaches
+          with Reinforcement Learning, while the application of Evolutionary Computing
+          algorithms is limited. This scarcity of cases can be attributed to the difficulty in designing
+          a suitable representation of the drone swarm control problem that is compatible with these
+          algorithms, or even to the fact that the focus in recent years has been mainly on the use of
+          other types of algorithms related to Reinforcement Learning.</p>
+        <p>This study evaluated the effectiveness of Deep Q-Learning, Genetic Algorithm (GA) and
+          Ant Colony Optimization (ACO) algorithms for route planning in drone swarms in 3x3, 5x5
+          and 7x7 dimensions. The results revealed that ACO significantly outperformed the other techniques
+          in reducing actions and execution times, showing its value in contexts where operational
+          efficiency is essential. Although Deep Q-Learning and AG also showed improvements,
+          they failed to match the efficiency of ACO. These findings suggest that ACO is more suitable
+          for practical implementation in complex missions, providing a solid basis for algorithm
+          choice based on operational and task-specific demands. It is critical to highlight the importance
+          of selecting the right algorithm and the optimal configuration of the number of drones
+          to maximize the operational efficiency of swarms in real applications.</p>
+        <img src="drones.gif"  width="900">
+        <img src="Drones2.gif"  width="900">
+    </div>
+    
+    </div>
+      </div>
+    </div>
+  
+    <footer class="footer"> 
+      <div class="footer-content">
+        <h2 id="contacto">Jaime Parada</h2>
+        <h5>Data Scientist</h5>
+      </div>
+      <div class="sotial-networks">
+        <a href="https://www.linkedin.com/in/jaimeparada06/"><i class="fab fa-linkedin"></i></a>
+        <a href="mailto:jaimeplab@gmail.com"><i class="material-icons">email</i></a>
+      </div>
+    </footer>
+  <script src="index.js"></script>
+  </body>
+</html>
